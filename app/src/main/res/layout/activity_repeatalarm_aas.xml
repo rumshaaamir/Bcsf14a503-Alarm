@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/cancel_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="2dp"
+                android:text="@string/cancel_btn_ara_ass"
+                android:drawableEnd="@drawable/cancel"
+                android:background="@drawable/round_button"
+                android:textColor="@color/colorGrey"
+                tools:ignore="RtlCompat" />
+
+
+            <Button
+                android:id="@+id/save_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="2dp"
+                android:text="@string/ok_btn_ara_ass"
+                android:drawableEnd="@drawable/ok"
+                android:background="@drawable/round_button"
+                android:textColor="@color/colorGrey"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+
+            <CheckBox
+                android:id="@+id/mon_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:theme="@style/WhiteCheck"/>
+
+
+            <EditText
+                android:id="@+id/mon_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorLiteBlue"
+                android:padding="20dp"
+                android:text="@string/mon_edt_ara_ass"
+                android:textSize="19dp"
+                android:editable="false"
+                tools:ignore="Deprecated" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+
+            <CheckBox
+                android:id="@+id/tues_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:theme="@style/WhiteCheck"/>
+
+
+            <EditText
+                android:id="@+id/tues_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorLiteBlue"
+                android:padding="20dp"
+                android:text="@string/tues_edt_ara_ass"
+                android:textSize="19dp"
+                android:editable="false"
+                tools:ignore="Deprecated" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+
+            <CheckBox
+                android:id="@+id/wed_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:theme="@style/WhiteCheck"/>
+
+
+            <EditText
+                android:id="@+id/wed_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorLiteBlue"
+                android:padding="20dp"
+                android:text="@string/wed_edt_ara_ass"
+                android:textSize="19dp"
+                android:editable="false"
+                tools:ignore="Deprecated" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+
+            <CheckBox
+                android:id="@+id/thurs_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:theme="@style/WhiteCheck"/>
+
+
+            <EditText
+                android:id="@+id/thurs_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorLiteBlue"
+                android:padding="20dp"
+                android:text="@string/thurs_edt_ara_ass"
+                android:textSize="19dp"
+                android:editable="false"
+                tools:ignore="Deprecated" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+
+            <CheckBox
+                android:id="@+id/fri_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:theme="@style/WhiteCheck"/>
+
+
+            <EditText
+                android:id="@+id/fri_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorLiteBlue"
+                android:padding="20dp"
+                android:text="@string/fri_edt_ara_ass"
+                android:textSize="19dp"
+                android:editable="false"
+                tools:ignore="Deprecated" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+
+            <CheckBox
+                android:id="@+id/sat_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:theme="@style/WhiteCheck"/>
+
+
+            <EditText
+                android:id="@+id/sat_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorLiteBlue"
+                android:padding="20dp"
+                android:text="@string/sat_edt_ara_ass"
+                android:textSize="19dp"
+                android:editable="false"
+                tools:ignore="Deprecated" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+
+            <CheckBox
+                android:id="@+id/sun_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:theme="@style/WhiteCheck"/>
+
+
+            <EditText
+                android:id="@+id/sun_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorLiteBlue"
+                android:padding="20dp"
+                android:text="@string/sun_edt_ara_ass"
+                android:textSize="19dp"
+                android:editable="false"
+                tools:ignore="Deprecated" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

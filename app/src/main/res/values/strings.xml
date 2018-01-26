@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Alarm</string>
+    <!--activity.about.xml-->
+    <string name="about_tv_aa">About Application</string>
+
+    <!--activity_mail.xml strings-->
+    <string name="time_tv_am">08:00 PM</string>
+    <string name="description_tv_am">Morning Alarm!</string>
+    <string name="alarmOn_switch_am">On</string>
+    <string name="alarmOff_switch_am">Off</string>
+    <string name="alarmType_tv_am">Sound</string>
+    <string name="alarmDate_tv_am">Friday 29,August,2017</string>
+    <string name="title_am">Alarms</string>
+    <string name="add_newAlarm">Set New Alarm</string>
+
+    <!--menu_activity_main.xml-->
+    <string name="settings_item_mam">Settings</string>
+    <string name="about_item_mam">About</string>
+
+    <!--activity_alramset.xml-->
+    <string name="cancel_btn_aas">Cancel</string>
+    <string name="save_btn_aas">Save</string>
+    <string name="date_tv_aas">Mon,Tues,Wed,Thur,Fri,Sat,Sun</string>
+    <string name="calender_btn_ass">Calender</string>
+    <string name="time_btn_ass">Time</string>
+    <string name="type_btn_ass">Alarm Type</string>
+    <string name="mon_btn">M</string>
+    <string name="tue_btn">Tu</string>
+    <string name="wed_btn">W</string>
+    <string name="thu_btn">Th</string>
+    <string name="fri_btn">F</string>
+    <string name="sat_btn">Sa</string>
+    <string name="sun_btn">Su</string>
+    <string name="monday_btn">M</string>
+    <string name="repeatAlarm_btn_ass">Repeat Alarm!</string>
+    <string name="snozeAlarm_btn_ass">Snoze Alarm!</string>
+    <string name="descriptionAlarm_btn_ass">Description Alarm!</string>
+    <string name="toneAlarm_btn_ass">Select Alarm Tone</string>
+    <string name="toneAlarm_edt_ass">Alarm Tone</string>
+
+    <!--menu_popup_alarmtype_alarmset.xml-->
+    <string name="simpleAlarm_popup_aas">Simple Alarm</string>
+    <string name="mathAlarm_popup_aas">Math Alarm</string>
+    <string name="locationAlarm_popup_aas">Location Alarm</string>
+
+    <!--activity_repeatalarm_ass.xml-->
+    <string name="cancel_btn_ara_ass">Cancel</string>
+    <string name="ok_btn_ara_ass">OK</string>
+    <string name="mon_edt_ara_ass">Monday</string>
+    <string name="tues_edt_ara_ass">Tuesday</string>
+    <string name="wed_edt_ara_ass">Wednesday</string>
+    <string name="thurs_edt_ara_ass">Thursday</string>
+    <string name="fri_edt_ara_ass">Friday</string>
+    <string name="sat_edt_ara_ass">Saturday</string>
+    <string name="sun_edt_ara_ass">Sunday</string>
+
+    <!--activity_snozealarm_saa_ass.xml-->
+    <string name="one_edt_saa_ass">One Time</string>
+    <string name="two_edt_saa_ass">Two Time</string>
+    <string name="three_edt_saa_ass">Three Time</string>
+    <string name="five_edt_saa_ass">Five Time</string>
+    <string name="one_min_edt_saa_ass">One Minute Latter</string>
+    <string name="three_min_edt_saa_ass">Three Minute Latter</string>
+    <string name="five_min_edt_saa_ass">Five Minute Latter</string>
+    <string name="seven_min_edt_saa_ass">Seven Minute Latter</string>
+    <string name="ten_min_edt_saa_ass">Ten Minute Latter</string>
+    <string name="fifteen_min_edt_saa_ass">Fifteen Minute Latter</string>
+    <string name="save_btn_saa_ass">Save</string>
+    <string name="cancel_btn_saa_ass">Cancel</string>
+
+    <!--activity_previewalarm.xml-->
+    <string name="alarmtitle_apa">Alarm Title</string>
+    <string name="alarmdate_apa">Alarm Date</string>
+    <string name="alarmtone_apa">Alarm Tone</string>
+    <string name="alarmtype_apa">Alarm Type</string>
+    <string name="alarmsnooze_apa">Alarm Snooze</string>
+
+
+    <!--menu_popup_alarmtype_alarmset.xml-->
+    <string name="defaulttone">Default Tone</string>
+    <string name="alramtone">Alarm Tone</string>
+    <!--<string name="notitone">Notification Tone</string>-->
+
+
+    <!--activity_simplealarm.xml-->
+    <string name="alramAlert_tv">Alarm Alert!</string>
+    <string name="time_tv">08:00 PM</string>
+    <string name="stop_btn">Stop</string>
+    <string name="snooze_btn">Snooze</string>
+</resources>

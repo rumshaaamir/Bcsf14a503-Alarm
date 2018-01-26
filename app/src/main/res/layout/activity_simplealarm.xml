@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentTop="true">
+
+                <TextView
+                    android:id="@+id/alarmAlert_ba_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textStyle="bold|italic"
+                    android:text="@string/alramAlert_tv"
+                    android:textSize="35dp"
+                    android:gravity="center"
+                    android:padding="8dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:editable="false"
+                    android:focusable="false"
+                    tools:ignore="Deprecated" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/ll2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="70dp"
+                android:layout_alignEnd="@+id/ll1">
+
+                <TextView
+                    android:id="@+id/time_textView_simpleaa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:textSize="65dp"
+                    android:text="@string/time_tv"
+                    android:gravity="center"
+                    android:padding="8dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:editable="false"
+                    android:focusable="false"
+                    tools:ignore="Deprecated" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:layout_marginTop="455dp"
+                android:layout_marginBottom="5dp">
+
+                <Button
+                    android:id="@+id/stopAlarm_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp"
+                    android:drawableEnd="@drawable/stop"
+                    android:textColor="@color/colorGrey"
+                    android:text="@string/stop_btn"
+                    android:background="@drawable/round_button"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="2dp"
+                    android:textColor="@color/colorGrey"
+                    android:drawableEnd="@drawable/snooze"
+                    android:text="@string/snooze_btn"
+                    android:background="@drawable/round_button"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+        <!--<EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:editable="false"
+            tools:ignore="Deprecated" />-->
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        android:gravity="bottom">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="2dp"
+            android:drawableEnd="@drawable/stop"
+            android:textColor="@color/colorGrey"
+            android:text="@string/stop_btn"
+            android:background="@drawable/round_button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:textColor="@color/colorGrey"
+            android:drawableEnd="@drawable/snooze"
+            android:text="@string/snooze_btn"
+            android:background="@drawable/round_button"/>
+
+    </LinearLayout>-->
+
+
+
+
+</ScrollView>

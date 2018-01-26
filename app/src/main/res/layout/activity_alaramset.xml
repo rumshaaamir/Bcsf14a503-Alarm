@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/cancel_button_asa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="2dp"
+                android:text="@string/cancel_btn_aas"
+                android:drawableEnd="@drawable/cancel"
+                tools:ignore="RtlCompat"
+                android:background="@drawable/round_button"
+                android:textColor="@color/colorGrey"/>
+
+
+            <Button
+                android:id="@+id/save_button_asa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="2dp"
+                android:text="@string/save_btn_aas"
+                android:drawableEnd="@drawable/save"
+                tools:ignore="RtlCompat"
+                android:background="@drawable/round_button"
+                android:textColor="@color/colorGrey"/>
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp">
+
+
+            <Button
+                android:id="@+id/time_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.4"
+                android:text="@string/time_btn_ass"
+                android:drawableStart="@drawable/clock"
+                tools:ignore="RtlCompat"
+                android:textSize="12dp"
+                android:background="@color/colorLiteBlue"/>
+
+            <Button
+                android:id="@+id/calender_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/calender_btn_ass"
+                android:drawableStart="@drawable/calendar"
+                tools:ignore="RtlCompat"
+                android:textSize="12dp"
+                android:background="@color/colorLiteBlue"/>
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/dateDisplay_textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/date_tv_aas"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+
+
+        <EditText
+            android:id="@+id/tonealram_editText_aas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="@string/toneAlarm_edt_ass"
+            android:backgroundTint="@color/colorPrimary"
+            android:textCursorDrawable="@drawable/my_custom_cursor_drawable"
+            android:gravity="top"
+            android:lineSpacingExtra="10dp"
+            android:textSelectHandle="@color/colorPrimary"
+            android:textSelectHandleLeft="@color/colorSkyBlue"
+            android:textSelectHandleRight="@color/colorSkyBlue"
+            tools:ignore="UnusedAttribute"
+            android:textColor="@color/colorGrey"/>
+
+        <Button
+            android:id="@+id/soundAlram_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/toneAlarm_btn_ass"
+            android:drawableEnd="@drawable/rsz_1tone"
+            tools:ignore="RtlCompat"
+            android:background="@color/colorLiteBlue"/>
+
+        <Button
+            android:id="@+id/typeAlram_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:layout_margin="8dp"
+            android:text="@string/type_btn_ass"
+            android:drawableEnd="@drawable/type"
+            tools:ignore="RtlCompat"
+            android:background="@color/colorLiteBlue"/>
+
+
+        <Button
+            android:id="@+id/repeatAlram_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/repeatAlarm_btn_ass"
+            android:drawableEnd="@drawable/repeatalarm"
+            tools:ignore="RtlCompat"
+            android:background="@color/colorLiteBlue"/>
+
+        <Button
+            android:id="@+id/snozeAlarm_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:layout_margin="8dp"
+            android:text="@string/snozeAlarm_btn_ass"
+            android:drawableEnd="@drawable/snozealarm"
+            tools:ignore="RtlCompat"
+            android:background="@color/colorLiteBlue"/>
+
+        <Button
+            android:id="@+id/alarmDesciption_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/descriptionAlarm_btn_ass"
+            android:drawableEnd="@drawable/write"
+            tools:ignore="RtlCompat"
+            android:background="@color/colorLiteBlue"/>
+
+        <EditText
+            android:id="@+id/alramDescription_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="@string/app_name"
+            android:backgroundTint="@color/colorPrimary"
+            android:textCursorDrawable="@drawable/my_custom_cursor_drawable"
+            android:gravity="top"
+            android:lineSpacingExtra="10dp"
+            android:textSelectHandle="@color/colorSkyBlue"
+            android:textSelectHandleLeft="@color/colorSkyBlue"
+            android:textSelectHandleRight="@color/colorSkyBlue"
+            tools:ignore="UnusedAttribute"
+            android:textColor="@color/colorGrey"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

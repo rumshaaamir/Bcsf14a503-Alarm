@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/simpleAlarm_item_popup_aas"
+        android:title="@string/simpleAlarm_popup_aas"/>
+
+    <item
+        android:id="@+id/mathAlarm_item_popup_aas"
+        android:title="@string/mathAlarm_popup_aas"/>
+
+    <item
+        android:id="@+id/mapAlarm_item_popup_aas"
+        android:title="@string/locationAlarm_popup_aas"/>
+
+
+</menu>
